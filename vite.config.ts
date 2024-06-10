@@ -9,5 +9,9 @@ export default defineConfig({
     setupFiles: ['./tests/setup.ts'],
     testMatch: ['./**/*.test.tsx'],
     globals: true,
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html'], // or 'v8'
+    },
   },
 })

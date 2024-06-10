@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@types/jest-axe": "^3.5.9",
+    "axios": "^1.7.2",
     "jest-axe": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
